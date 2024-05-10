@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h1>Registartion Form 3</h1>
+    <h1><a href="index.html">Registartion Form 1</a> </h1>
+    <h1><a href="index2.html">Registartion Form 2</a></h1>
+    <br>
+<body bgcolor="plum">
+  <table>
+    <form  action="/submit_registration" method="post" >
+
+        <label for="fname"> First Name
+         <input type="text" name="fname" id="fname">
+        
+       </label>
+       <br><br>
+       <label for="lname"> Last Name
+        <input type="text" name="lname" id="lname">
+  
+      </label>
+      <br><br>
+      <label for="DOF"> Date of Birth
+        <input type="date" name="DOF" id="DOF">
+      </label>
+      <br><br>
+      <label for="Email"> Email Id
+        <input type="email" name="Email" id="Email">
+      </label>
+      <br><br>
+      <label for="MB"> Mobile Number
+        <input type="number" name="MB" id="MB">
+        
+      </label>
+      <br><br>
+      <h4>Gender :</h4>
+      <label for="Male"> Male
+        <input type="radio" name="gender" id="Male">
+      </label>
+      <label for="Female"> Gender
+        <input type="radio" name="gender" id="Female">
+      </label>
+      <br><br>
+      
+      <h5>Address :</h5> <textarea name="" id="" cols="30" rows="10">
+       </textarea>
+      
+    <br><br>
+    <label for="City"> City
+        <input type="text" name="City" id="City">
+        
+      </label>
+      <br><br>
+      <label for="Pin"> Pin Code
+        <input type="password" name="Pin" id="Pin">
+      
+      </label>
+<br><br>
+      <label for="State"> State
+        <input type="text" name="State" id="State">
+      
+      </label>
+<br><br>
+<label for="Country"> Country
+  <input type="text" name="Country" id="Country" value="India">
+</label>
+<br><br>
+
+<h4>Hobbies :</h4>
+
+<label for="Drawing"> Drawing
+  <input type="checkbox" name="Drawing" id="Drawing">
+  
+</label>  
+
+<label for="Sloging"> Sloging
+  <input type="checkbox" name="Sloging" id="Sloging"> 
+</label>
+<label for="Dancing"> Dancing
+  <input type="checkbox" name="Dancing" id="Dancing">
+  
+</label>
+
+<label for="Sketching"> Sketching
+  <input type="checkbox" name="Sketching" id="Sketching">
+  
+</label>
+<br>
+
+<label for="Other"> Other
+  <input type="checkbox" name="Other" id="Other">
+  
+</label>
+
+<label for="Drawing">
+  <input type="text" name="Drawing" id="Drawing">
+  
+</label>
+<br><br>
+<label>Qualification :</label>
+
+      <tr>
+            <th>Sl.No.Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of passing</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="Sl.No.Examination[]" required></td>
+            <td><input type="text" name="Board[]" required></td>
+            <td><input type="text" name="Percentage[]" required></td>
+            <td><input type="text" name="Year of Passing[]" required></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="Sl.No.Examination[]" required></td>
+            <td><input type="text" name="Board[]" required></td>
+            <td><input type="text" name="Percentage[]" required></td>
+            <td><input type="text" name="Year of Passing[]" required></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="Sl.No.Examination[]" required></td>
+          <td><input type="text" name="Board[]" required></td>
+          <td><input type="text" name="Percentage[]" required></td>
+          <td><input type="text" name="Year of Passing[]" required></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="Sl.No.Examination[]" required></td>
+        <td><input type="text" name="Board[]" required></td>
+        <td><input type="text" name="Percentage[]" required></td>
+        <td><input type="text" name="Year of Passing[]" required></td>
+    </tr>
+    
+  </table>
+  <p>
+    Courses and Applied For :</p>
+    <label for="a">Join a Music Class.
+<input type="radio" name="Course" id="a">
+</label>
+<label for="b">Coding Courses.
+<input type="radio" name="Course" id="b">
+</label>
+<label for="c">outdoor games.
+<input type="radio" name="Course" id="c">
+</label>
+<label for="d">A Physical Activity Course.
+<input type="radio" name="Course" id="d">
+
+</label>
+
+    <style>
+      .center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+      }
+
+      form {
+          background-color: plum;
+          padding: 20px;
+          border-radius: 10px;
+      }
+  </style>
+  <br><br>
+  <center><button>Sumbit</button> <button>Reset</button></center>
+  </form>
+</body>
+</html>
